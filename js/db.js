@@ -32,7 +32,7 @@ const autos = [
 		year: 2020,
 		precio: 35000,
 		puertas: 4,
-		color: "Negro",
+		color: "Azul",
 		transmision: "automatico",
 	},
 	{
