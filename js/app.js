@@ -77,8 +77,13 @@ function mostarOtros() {
 
 	resultadoModelo.forEach((resultadoModelo) => {
 		puertas = resultadoModelo.puertas;
+		limpiarOtros();
+		datosBusqueda.puertas = puertas;
 		transmision = resultadoModelo.transmision;
+		datosBusqueda.transmision = transmision;
 		color = resultadoModelo.color;
+		datosBusqueda.color = color;
+		console.log(datosBusqueda);
 	});
 
 	selectOtros();
